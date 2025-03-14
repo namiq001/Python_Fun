@@ -1,0 +1,16 @@
+Bu proqramın danışdığı məlumatlar, istifadəçinin verdiyi komandalara əsaslanır. Məsələn:
+
+"Salam! Mən sənin virtual asistanınım. Nə edə bilərəm?" — Bu, proqram başladıqda səsli qarşılamadır.
+
+Hava məlumatı istəsəniz:
+
+İstifadəçi "hava" dedikdə, proqram hava vəziyyəti haqqında məlumat verir. Bu, OpenWeather API-dən alınan məlumat əsasında belə olacaq:
+Məsələn: "Havanın temperaturu 15.5°C və günəşlidir."
+Saat soruşsanız:
+
+İstifadəçi "saat" dedikdə, proqram indiki vaxtı səslə bildirir:
+Məsələn: "İndiki vaxt: 15:30:00."
+Proqramı dayandırmaq istəsəniz:
+
+İstifadəçi "dayan" və ya "çix" dedikdə, proqram "Görüşərik!" deyərək çıxar.
+Bu əsasən proqramın necə işlədiyini göstərir. Hər bir komanda və verilən tapşırığa görə proqramın səsli cavabları dəyişir.
