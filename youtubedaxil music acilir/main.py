@@ -37,7 +37,7 @@ def check_time_and_play_song():
     print(f'Hal-hazırkı vaxt: {current_time}')
 
     # istediyiniz saatda musiqini açırıq
-    if current_time == "13:26":
+    if current_time == "13:23":
         print("Saat 13:26 oldu! Musiqini açırıq...")
         song_name = "Balaeli & Sebnem - Tesaduf 2024 (Yeni Klip)"
         open_youtube_and_play_song(song_name)
